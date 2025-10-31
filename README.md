@@ -78,7 +78,7 @@ pg_restore -d sakila sakiladb.sql
 
 [Ссылка на документацию MySQL](https://dev.mysql.com/doc/mysql-enterprise-backup/8.2/en/mysqlbackup.incremental.html#meb-incremental-considerations)
 
-Инкрементное резервное копирование использует полную копию как начальную точку, поэтому для начала нужно сделать полную резервную копию.  
+Инкрементное резервное копирование (Incremental backup) использует полную копию как начальную точку, поэтому для начала нужно сделать полную резервную копию.  
 Далее инкрементное резервное копирование:  
 ```bash
 mysqlbackup --defaults-file=/home/dbadmin/my.cnf \
