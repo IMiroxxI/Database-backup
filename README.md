@@ -64,7 +64,7 @@ pg_dump -U username sakila > sakiladb.sql
 ```bash
 pg_restore -d sakila sakiladb.sql
 ```
-[Ссылка на документацию PostgreSQL, pg_restore](https://www.postgresql.org/docs/current/app-pgrestore.html)
+[Ссылка на документацию PostgreSQL (pg_restore)](https://www.postgresql.org/docs/current/app-pgrestore.html)
 
 ---
 
